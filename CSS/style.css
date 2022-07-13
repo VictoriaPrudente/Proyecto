@@ -1,7 +1,63 @@
-.header {
-  background-color: aquamarine;
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-.header h1 {
-  font-size: 10rem;
+header {
+  width: 84.6rem;
+  height: 20rem;
+  background-image: url(/Imágenes/banner.jpg);
+  background-repeat: space;
+}
+
+header h1 {
+  font-size: 2rem;
+  padding: 3rem 32rem;
+  margin: 0%;
+  font-family: 'Indie Flower', cursive;
+  word-spacing: 2px;
+  color: #c7708a;
+}
+
+.content {
+  margin: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content .cat {
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .cat img {
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.199);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.199);
+  border-radius: 10px;
 }
